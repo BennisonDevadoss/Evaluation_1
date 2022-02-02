@@ -5,9 +5,6 @@ let even, odd;
 
 even = odd = 0;
 function find(a, b) {
-
-
-    console.log("Even Numbers:");
     while (a <= b) {
         if (a % 2 != 0) {
 

@@ -5,15 +5,9 @@ let c = { id: 1, name: "edison" };
 let d = { id: 2, name: "edison" };
 
 
-function compair(objectA, objectB) {
-
-    console.log(objectA.id === objectB.id && objectA.name === objectB.name);
-
-
+function compare(objectA, objectB) {
+    return objectA.id === objectB.id && objectA.name === objectB.name;
 }
 
-
-
-
-compair(a, b);
-compair(c, d); 
+console.log(compare(a, b));
+console.log(compare(c, d)); 
