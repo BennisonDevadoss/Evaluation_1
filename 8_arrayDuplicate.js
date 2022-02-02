@@ -2,14 +2,6 @@ let a = [1, 2, 9, 4, 5, 8, 3, 5, 1, 4, 5];
 
 let b = [];
 
-// for (i = 0; i < a.length; i++) {
-//     for(j = i; j < a.length; j++)
-//     {
-//          if(a[i] != a[j+1]){}
-//     }
-// }
-
-
 for (i = 0; i < a.length; i++) {
     const value = a[i];
     console.log('value', value)
