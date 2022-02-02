@@ -626,7 +626,7 @@ PRINTpattern
       the console.dir is used to view the objects of JavaScript. the console.dir function views the object in hierarchical formate. each hierarchical list have some property and methods. 
       
       
-3: 
+3: console.count
 
 
       
