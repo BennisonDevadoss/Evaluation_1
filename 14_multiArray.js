@@ -13,7 +13,6 @@ let a = [1, 2, [2, 3, 4, 5, 5, 67, 8], 3, 5, 6, [4, 65, 7, 8]];
 // console.log(a[4][0]); 
 
 // console.log(a[(4)].length);
-// let b = [];
 let c = [];
 let k = 0;
 

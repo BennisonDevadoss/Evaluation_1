@@ -724,41 +724,4 @@ let y = 5;
 console.assert(x + y == 11, "Expression returned 'false'");
 ```
 
-      
-
-
-
-
-
-
-
-
-
-
-
- 
-   
-          
-
-
-
-
-
-
-
-
-
-
-
-     
-
-
-
-     
-
-
-
-
-
-
 
