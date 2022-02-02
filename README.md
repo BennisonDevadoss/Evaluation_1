@@ -105,9 +105,9 @@ SET string = "hi hello how are you"
 SET length = strng.lengh
 INIT word = 0
 FOR i -> 0 to length
-IF stfing[i] + 1
+  IF stfing[i] + 1
    word = word +1
-END IF
+  END IF
 END FOR
 SET diff = 0; 
 SET = reverse = ""
@@ -289,7 +289,6 @@ SET sum = 0
 FOR i = 1 -> para1
    sum = sum + i; 
 ENDFOR
-
 PRINT sum
 NaturalNumber(number)
 ```
@@ -378,7 +377,6 @@ SET k = -1
 SET newArray = []
 SET i, j
 SET copy_of_k
-
 OUTER: FOR i = 0 -> length
 IF i > 0
     copy_of_k = k; 
@@ -441,7 +439,6 @@ step 6: Finally, copy the empty array to multidimensional array.
 SET a = [1, 4, 2, 3, [10, 20, 20], [100, 500, 700, 600],[2000, 1000]];
 SET c = []
 SET k = 0
-
 outer: FOR i = 0 -> a.length
     IF (a[i].length > 1)
          length = a[i].length
@@ -454,7 +451,6 @@ outer: FOR i = 0 -> a.length
     c[k] = a[i]
     k+:
 ENDFOR
-
 a = c 
 PRINT a
 ```
@@ -465,9 +461,187 @@ PRINT a
 
 step 1: Declare two variable named pattern and namber. pattern is a string variable. so declare with empty string. 
 
-step 2: And, initialize numberequal to 5.
+step 2: And, initialize number equal to 5.
 
-step 3: 
+step 3: inside the for loops, when i = 0, one star will be stored in variable name pattern.
+
+step 4: and once the oinner for loop executed outer for loop printed newline character. 
+
+step 4: If the i equal to two, in the inner for loop two star will be stored in variable name pattern 
+
+step 5: When the i = 5 the outer for loop condition will be failed. 
+
+### pusdocode
+```
+INIT i, j
+SET pattern = "";
+SET number = 5; 
+FOR i = 0 -> number
+    FOR j = 0 -> i
+        pattern += "*";
+   ENDFOR
+    pattern += "\n"
+ENDFOR
+PRINT pattern
+```
+### 17. Print Pattern with numbers. 
+
+### Algorithm 
+
+step 1: Declare two variable named pattern and namber. pattern is a string variable. so declare with empty string. 
+
+step 2: And, initialize number equal to 5.
+
+step 3: And used two for loop the outer for loop is used to print new line character. and at the same time the inner for loop will be used to print numbers.
+
+step 4: first the i value is one and then the condition will go and check the inner for loop, in the inner for loop j value initialized with i. 
+
+step 5: So the inner for loop will run i time. 
+
+step 6: each time the inner forloop will print the numbers, when the inner for loop execute the number will be modified. 
+
+step 7:  till the i equal to 6, the outer and inner for loop will be executed. 
+
+
+### Psudocode
+```
+INIT i, j;
+SET pattern = "";
+SET k = 0;
+SET number = 5;
+FOR (i = 1 -> number
+    FOR (j = 1 -> i
+        k+:
+        pattern += k + " ";
+    ENDFOR
+    pattern += "\n";
+ENDFOR
+PRINT pattern. 
+```
+### 18:  Print Number Pyramid pattern.
+
+### Algorithm 
+
+step 1: to print pyramid pattern, first add some white spaces in the variable. 
+
+step 2: And then add first number to the variable pattern. 
+
+step 3: We can do this with two for loops. 
+
+step 4: First for loop used to track the pyramid length. 
+
+step 5: And the inner for loop will used to print spaces and print numbers and stored the pattern and number into the variable pattern. 
+
+step 6: The logic is when first time the outer for loop is executed, the inner for loop pring three white spaces. after that the number will be added in the variable pattern. 
+
+step 7: When the outer for loop will go to five  the condition will be failed. 
+
+step 8: Then the program execution will be stoped. 
+
+### Psudocode
+```
+INIT i, j;
+SET pattern = "";
+SET size = 3
+SET k = 0;
+FOR (i = 1 -> 5
+    FOR (j = 1 -> 5
+        IF (j <= size) {
+            pattern += pattern = " ";
+        ENDIF
+        ELSE 
+            pattern += ++k + " ";
+        ENDELSE
+    ENDFOR
+    pattern += "\n";
+    size-:
+ENDFOR
+PRINT pattern. 
+```
+
+### 19: Dimond pattern in JavaScript. 
+
+### Algorithm 
+
+step 1: First declare empty string variable to stroed the dimond pattern design. 
+
+step 2: And declare some variable i, j, k ,l, space. 
+
+step 3: Make dimod pattern, in each line print some whitespaces afterthat we have to print star. 
+
+step 4: And copy the space to the variable name temp. 
+
+step 5: The outer for loop will be used to print the length of the dimod pattern. 
+
+step 6: And the inner for loop will be used to print the white spaces and stars. 
+
+step 7: Inside the inner for loop write the condition to print white space and print * in the variable pattern. 
+
+step 8: Once the outer for loop will be executed, it will print a newline character, so next time the inner for loop print the white space and * in the new line. 
+
+### Psudocode: 
+```
+SET pattern = "";
+INIT i, j, k, l;
+SET space = 5;
+SET temp = space;
+FOR i = 0 -> 5
+    FOR j = 0 -> i
+        WHILE temp > 0
+            pattern += " "
+            temp-:
+        ENDWHILE
+        pattern += "*" + " "
+    ENDFOR
+    pattern += "\n"
+    space = space - 1
+    temp = space
+ENDFOR
+pattern = pattern + " ";
+space = 1;
+tempe = space;
+FOR i = 4; i >= 0; i--
+    FOR j = 0; j <= i; j++
+        WHILE temp > 0 
+            pattern += " "
+            temp-:
+        ENDWHILE
+        pattern += "*" + " "
+    ENDFOR
+    pattern += "\n"
+    space = space + 1
+    temp = space
+ENDFOR
+PRINTpattern
+```
+
+###   20: 
+
+1: console.log
+       
+       console.log is used to print the output message in the web console.  And the message may be string, integer, float.
+ 
+2: console.dir
+      
+      the console.dir is used to view the objects of JavaScript. the console.dir function views the object in hierarchical formate. each hierarchical list have some property and methods. 
+      
+      
+3: 
+
+
+      
+
+
+
+
+
+
+
+
+
+
+
+ 
    
           
 
