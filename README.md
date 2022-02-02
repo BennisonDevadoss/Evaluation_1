@@ -38,34 +38,40 @@ ENDFOR
 
 2: Eqaual and Strict Eaual
 
-Algorithim
+## Algorithim
 
 step 1: first I declare a two const variabe
+
 step 2: I define 2 in variable name a and i difine string 2 in variable name b. 
+
 stpe 3: I check the two variable with equality operator
+
 stpe 4: Check the two variable with strict equality operator. 
 
 
-Psudocode
-
+## Psudocode
+```
 SET a  = 2
 SET b  = "2"
 a == b
 PINT BOOLEAN
 a === b
 PRINT BOOLEAN
+```
 
 
 3: String Reverse
 
-Algorithim: 
+## Algorithim: 
 
 step 1: Firt I declare a string variable with string value and create a empty string variable. 
+
 step 2: Find the variable length
+
 step 3: And i save the index backward, from last index to first index to the empty variable. 
 
-Psudocode: 
-
+## Psudocode: 
+```
 INIT string "bennison devadoss"
 SET length = string.length
 SET i = 0
@@ -73,22 +79,29 @@ WHILE i < length
 reverse = reverse + string(length-i) -1
 END WHILE
 PRINT reverse. 
+```
 
 4: Word Reverse
 
-Algorithim: 
+## Algorithim: 
 
 step 1: Declare a string variable and enter some variable, declare some variables named diff reverse and count 
+
 step 2: Calculate the strling length and store that length count in another variable name length. 
+
 step 3: Calculate, how words are in string. 
+
 step 4: First calculate the string's last words starting index. 
+
 step 5: Store the last word to varaible named reverse.
+
 step 6: Then find the next last word from string. 
+
 step 7: And finally, store variable string's first word to variable name reverse. 
 
 
-Psudocode: 
-
+## Psudocode: 
+```
 SET string = "hi hello how are you"
 SET length = strng.lengh
 INIT word = 0
@@ -122,21 +135,28 @@ WHILE string[i] != " "
   i+
 END WHILE
 PRINT reverse
+```
 
 
 5: Palindrome
 
-Algorithim: 
+## Algorithim: 
 
 step 1: Declare a string variable name with value racecar
+
 step 2: declare a empty string variable 
+
 step 3: find the string varaible length. 
+
 step 4: And store the string of each index from last to first to the emptry variable.
+
 step 5: Compare the variable string and reversed string
+
 step 6: If both are same print the string is palindrome
+
 step 7: or else the string is not a palindrome
 
-Psudocode: 
+## Psudocode: 
 
 SET string = "racecar"
 SET reverse =""
@@ -151,7 +171,7 @@ ELSE
    
 6: Array.forEach()  &  Array.map()
 
-ALgorithim: 
+## ALgorithim: 
 
 Array.forEach
 
@@ -162,7 +182,7 @@ step 4: Finally, call the forEach method with call back function
 step 5: Through the forEach method can be accessed array index, value, objects seperatly. 
 
 
-Psudocode: 
+## Psudocode: 
 
 SET names = ["Bennison", "Devadoss"]
 
@@ -173,15 +193,19 @@ ENDFUNCTION fun
 
 Array.map()
 
-Algorithim
+## Algorithim
 
 step 1: Declare a string array with some string values.
+
 step 2: define a function and assign that function to a variable 
+
 step 3: The function will convert the string to uppercase letter.
+
 step 4: Call the array.map function with call back function. 
+
 step 5: the changed array must be stored in aonther array.
 
-Psudocode: 
+## Psudocode: 
 
 SET fun = FUNCTION (para1)
        RETURN element.toUpperCase()
@@ -192,15 +216,19 @@ PRINT newArray
 
 7: Random number
 
-Algorithim: 
+## Algorithim: 
 
 step 1: Declare a two integer with value one and five.
+
 step 2: Create a function, and that function takes the two argument. 
+
 step 3: Inside the function create a another variable called integer. 
-step 4: Inside the function write a logic to generate a random number with the help of math.floor and math.random function. 
+
+step 4: Inside the function write a logic to generate a random number with the help of math.floor and math.random function.
+
 step 5: call the function and pass the two argument to that function. 
 
-Psudocode: 
+## Psudocode: 
 
 INIT integer
 FUNCTION randomNumber(para1 para2)
@@ -213,9 +241,33 @@ randamNumber(arg1, arg2)
 
 8: Array Duplicate
 
-Algorithim: 
+## Algorithim: 
+
+step 1: Declare a array with some dupllicate integer value. 
+
+step 2: Whithin the for loop, each index values are taken and stored in a variable.
+
+step 3: create a empty array variable named b.
+
+step 4: Finaly check the variable name value, if the value is not already in the array b, value is pushed to array variable b.
+
+## Psudocode: 
+
+SET a = [1, 2, 9, 4, 5, 8, 3, 5, 1, 4, 5]
+INIT b = []
+FOR i = 0 -> a.length
+   SET value = a[i]
+   IF !b.includes(values)
+   b.push(value)
+   ENDIF
+ENDFOR
+PRINT b
+
+9: Sum of Natural numbers. 
 
 step 1: 
+
+
 
 
 
