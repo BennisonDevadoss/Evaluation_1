@@ -1,7 +1,7 @@
 # Evaluation_1
 
 ## 1: Prime number: 
-```
+
 Algorithim: 
 
 step 1: Start a program with function with argument. 
@@ -13,7 +13,6 @@ step 3: if the number is one or two, I print number is not a prime number.
 step 4: If the number is greater than two, I divide the number from number three to number -1
 
 step 5: If the remainder will be zero, I print number is a prime number.otherwise I print the number is NOT prime. 
-```
 
 ## PSUDOCODE: 
 ```
