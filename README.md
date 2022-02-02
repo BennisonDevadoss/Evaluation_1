@@ -1,8 +1,8 @@
 # Evaluation_1
 
-## 1: Prime number: 
+### 1: Prime number: 
 
-Algorithim: 
+### Algorithm: 
 
 step 1: Start a program with function with argument. 
 
@@ -14,7 +14,7 @@ step 4: If the number is greater than two, I divide the number from number three
 
 step 5: If the remainder will be zero, I print number is a prime number.otherwise I print the number is NOT prime. 
 
-## PSUDOCODE: 
+### Psudocode: 
 ```
 BEGIN
 FUNCTION prime(number)
@@ -35,9 +35,9 @@ BREAK
 ENDFOR
 ```
 
-2: Eqaual and Strict Eaual
+### 2: Eqaual and Strict Eaual
 
-## Algorithim
+### Algorithm
 
 step 1: first I declare a two const variabe
 
@@ -48,7 +48,7 @@ stpe 3: I check the two variable with equality operator
 stpe 4: Check the two variable with strict equality operator. 
 
 
-## Psudocode
+### Psudocode
 ```
 SET a  = 2
 SET b  = "2"
@@ -59,9 +59,9 @@ PRINT BOOLEAN
 ```
 
 
-3: String Reverse
+### 3: String Reverse
 
-## Algorithim: 
+### Algorithm: 
 
 step 1: Firt I declare a string variable with string value and create a empty string variable. 
 
@@ -69,7 +69,7 @@ step 2: Find the variable length
 
 step 3: And i save the index backward, from last index to first index to the empty variable. 
 
-## Psudocode: 
+### Psudocode: 
 ```
 INIT string "bennison devadoss"
 SET length = string.length
@@ -80,9 +80,9 @@ END WHILE
 PRINT reverse. 
 ```
 
-4: Word Reverse
+### 4: Word Reverse
 
-## Algorithim: 
+### Algorithm: 
 
 step 1: Declare a string variable and enter some variable, declare some variables named diff reverse and count 
 
@@ -99,7 +99,7 @@ step 6: Then find the next last word from string.
 step 7: And finally, store variable string's first word to variable name reverse. 
 
 
-## Psudocode: 
+### Psudocode: 
 ```
 SET string = "hi hello how are you"
 SET length = strng.lengh
@@ -137,9 +137,9 @@ PRINT reverse
 ```
 
 
-5: Palindrome
+### 5: Palindrome
 
-## Algorithim: 
+### Algorithm: 
 
 step 1: Declare a string variable name with value racecar
 
@@ -155,8 +155,8 @@ step 6: If both are same print the string is palindrome
 
 step 7: or else the string is not a palindrome
 
-## Psudocode: 
-
+### Psudocode: 
+```
 SET string = "racecar"
 SET reverse =""
 SET length = string.length
@@ -167,10 +167,11 @@ IF string == reverse
    PRINT string is a palindrome
 ELSE 
    the string is not a palindrome
+   ```
    
-6: Array.forEach()  &  Array.map()
+### 6: Array.forEach()  &  Array.map()
 
-## ALgorithim: 
+### ALgorithm: 
 
 Array.forEach
 
@@ -181,18 +182,18 @@ step 4: Finally, call the forEach method with call back function
 step 5: Through the forEach method can be accessed array index, value, objects seperatly. 
 
 
-## Psudocode: 
-
+### Psudocode: 
+```
 SET names = ["Bennison", "Devadoss"]
 
 SET fun = FUNCTION (para1 para2 para3)
      PRINT index
 ENDFUNCTION fun
-
+```
 
 Array.map()
 
-## Algorithim
+### Algorithm
 
 step 1: Declare a string array with some string values.
 
@@ -204,18 +205,20 @@ step 4: Call the array.map function with call back function.
 
 step 5: the changed array must be stored in aonther array.
 
-## Psudocode: 
+### Psudocode: 
 
+```
 SET fun = FUNCTION (para1)
        RETURN element.toUpperCase()
 ENDFUNCTION
 SET array = ["bennison", "devadoss"]
 SET newArray = array.map(fun)
 PRINT newArray
+```
 
-7: Random number
+### 7: Random number
 
-## Algorithim: 
+### Algorithm: 
 
 step 1: Declare a two integer with value one and five.
 
@@ -227,20 +230,22 @@ step 4: Inside the function write a logic to generate a random number with the h
 
 step 5: call the function and pass the two argument to that function. 
 
-## Psudocode: 
+## Psudocode:
 
+```
 INIT integer
-FUNCTION randomNumber(para1 para2)
+FUNCTION randomNumber(a, b)
         integer = Math.floor(Math.random() * (b - a) + 1))
         PRINT integer
 ENDFUNCTION randomNumber
 SET a = 5; 
 SET b = 1; 
-randamNumber(arg1, arg2)
+randamNumber(a, b)
+```
 
-8: Array Duplicate
+### 8: Array Duplicate
 
-## Algorithim: 
+### Algorithm: 
 
 step 1: Declare a array with some dupllicate integer value. 
 
@@ -250,8 +255,9 @@ step 3: create a empty array variable named b.
 
 step 4: Finaly check the variable name value, if the value is not already in the array b, value is pushed to array variable b.
 
-## Psudocode: 
+### Psudocode: 
 
+```
 SET a = [1, 2, 9, 4, 5, 8, 3, 5, 1, 4, 5]
 INIT b = []
 FOR i = 0 -> a.length
@@ -261,10 +267,214 @@ FOR i = 0 -> a.length
    ENDIF
 ENDFOR
 PRINT b
+```
 
-9: Sum of Natural numbers. 
+### 9: Sum of Natural numbers. 
 
-step 1: 
+
+### Algorithm
+step 1: Create a function and pass the argument to that function.
+
+step 2: Inside the function create avariable sum and initialize the variable to zero. 
+
+step 3: And inside the function run the for loop from one to variable number.
+
+step 4: when each time for loop run, sum equal to sum plus one. 
+
+### psudoCode. 
+
+```
+FUNCTION NaturalNumber(number)
+SET sum = 0
+FOR i = 1 -> para1
+   sum = sum + i; 
+ENDFOR
+
+PRINT sum
+NaturalNumber(number)
+```
+
+### 10: Even or Odd
+
+### Algorithm 
+
+step 1: Take the number to the function as a parameter.
+
+step 2: inside the function, check the parameter remainder when mod by two.
+
+step 4: If the remainder is 0, simply print the number is even number.
+
+step 5: If the reamainder is not zero, print the number is odd number. 
+
+### Psudocode
+
+```
+INIT i 
+
+SET even = add = 0
+FUNCTION find(a, b)
+  WHILE a <= b
+     IF a MOD != 0
+        odd = odd + 1
+     ELSE
+        even = even +1
+     ENDELSEIF
+  a+:
+ ENDWHILE
+ PRINT "even number"
+ PRINT "odd number"
+ENDFUNCTION
+find(a, b)
+```
+
+### 11: Array Merge
+
+### Algorithm
+
+step 1: Create a two array variable a and b. 
+
+step 2: And find the length of and and b. 
+
+step 3: Add array of b to variable a. 
+
+step 4: So add the b variable's first index begin in variable name a's last index.
+
+### Psudocoe
+```
+SET a = [1, 2, 9. 3. 5. 1. 4. 5]
+SET b = [11, 54, 70, 40]
+SET lengthA = a.length
+SET lengthB = b.length
+SET i = 0
+WHIHLE i < length.B
+    a[lengthA + i] = b[i]
+    i+:
+ENDWHILE
+PRINT a
+```
+### 12: ObjectArray Duplicate remove. 
+
+### Algorithm
+
+step 1: Declare a array object with some same object elements. this array name is array. 
+
+step 2: find the length of array. 
+
+step 3: Declare a empty array called NewArray and declare some variabale such as k, i, j, copy_of_k.
+
+step 4: first copy the array's first index to NewArray's zero th index. 
+
+step 5: Again i take the value from array I check the value is exist or not exist in NewArray. 
+
+step 6: If the array not have the array's value, Then only the value will be stored in NewArray.
+
+step 7: Finally, copy the Newarray to array. 
+
+### Psudocode: 
+```
+SET array = [[{ id: 1, name: "Stephen covey" }, { id: 2, name: "Robin Sharma" }, { id: 3, name: "Tolstoy" }, { id: 3, name: "Tolstoy" }, { id: 5, name: "James clear" }];]
+SET length = array.length
+SET k = -1
+SET newArray = []
+SET i, j
+SET copy_of_k
+
+OUTER: FOR i = 0 -> length
+IF i > 0
+    copy_of_k = k; 
+    FOR j = 0 -> copy_of_k
+         IF array[i].id === newArray[j].id
+             CONTUNUE OUTER
+         ENDIF
+    ENDFOR
+ENDIF
+k = k + 1
+newArray[k] = array[i]
+ENDFOR
+array = newArray
+PRINT array
+```
+### 13: Compare two objects
+
+### Algorithm 
+
+step 1: declare two objects
+step 2: Pass these object to function to check the both function or same or not. 
+step 3: In the funtion, the function take two objects as a parameter. 
+
+step 4: Inside the function, two objects are compared. 
+
+step 5: If the two objects are same the function will return true. 
+
+step 6: If the two objects are not same the function will return false. 
+
+### Psudocode
+```
+SET a = { id: 1, name: "edison" }
+SET b = { id: 1, name: "edison" }
+SET c = { id: 1, name: "edison" }
+SET d = { id: 2, name: "edison" }
+FUNCTION compare(objectA, objectB)
+   return objectA.id === objectB.id && objectA.name === objectB.name
+ENDFUNCTION
+compare(a, b) 
+compare(a, b)
+```
+### 14: Multidimensional array to single dimensional array.
+
+### Algorithm 
+
+step 1: Declate a multidimensional array, and find that array's length. 
+
+step 2: And declare two empty array variables. 
+
+step 3: take the multidimensional array's each index to an empty array. 
+
+step 4: Count array's each index length, if the index have two are more than two indexes. then add that indexes each elemenets one by one to empty array.
+
+step5: In this way, multidimensional array's each elements are stored in empty array in single dimensional formate.
+
+step 6: Finally, copy the empty array to multidimensional array. 
+
+### psudocode
+```
+SET a = [1, 4, 2, 3, [10, 20, 20], [100, 500, 700, 600],[2000, 1000]];
+SET c = []
+SET k = 0
+
+outer: FOR i = 0 -> a.length
+    IF (a[i].length > 1)
+         length = a[i].length
+         FOR j = 0 -> length
+            c[k] = a[i][j]
+            k+:
+         ENDFOR
+         CONTINUE outer
+   ENDIF
+    c[k] = a[i]
+    k+:
+ENDFOR
+
+a = c 
+PRINT a
+```
+
+### 16: Printing pattern 
+
+### Algorithm 
+
+step 1: Declare two variable named pattern and namber. pattern is a string variable. so declare with empty string. 
+
+step 2: And, initialize numberequal to 5.
+
+step 3: 
+   
+          
+
+
+
+
+
 
 
 
