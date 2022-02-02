@@ -455,6 +455,31 @@ a = c
 PRINT a
 ```
 
+### 15 Array.Reduce() method
+
+### Algorithm 
+
+step 1: Through the array.reduce method check the id, how many id valus are same
+
+step 2: The output is taken as a object, so declare a reduce method in variable to take a result. 
+
+step 3: First we declare a object variable, and some variable ids are same. how many times the ids are return should be stored in another object variable. 
+
+step 4: through the reduce methhod, the id and that keys are taken, and check
+any id values are same. if same the id will be increas one. 
+
+step 5: Finally, the result will be stored in object a. 
+
+### Psudocode
+```
+SET array = [{ id: 1, name: "edison" },{ id: 1, name: "edison" }, { id: 2, name: "Annand" }, { id: 3, name: "Vasnath" }]
+SET a = array.reduce((key, value) => {
+    key[value.id] = key[value.id] + 1 || 1
+    RETURN key
+}, {})
+PRINT a
+```
+
 ### 16: Printing pattern 
 
 ### Algorithm 
@@ -615,19 +640,89 @@ ENDFOR
 PRINTpattern
 ```
 
-###   20: 
+###   20: Console
 
-1: console.log
+#### 1:console.log
        
        console.log is used to print the output message in the web console.  And the message may be string, integer, float.
  
-2: console.dir
+ #### 2:console.dir
       
-      the console.dir is used to view the objects of JavaScript. the console.dir function views the object in hierarchical formate. each hierarchical list have some property and methods. 
+      the console.dir is used to view the objects of JavaScript. 
       
+      the console.dir function views the object in hierarchical formate. 
       
-3: 
+      each hierarchical list have some property and methods. 
+      
+ #### 3:console.count
 
+     The count() method counts the number of times console.count() is called.we can use this console.count() method to track how many time a particular statement is executed. 
+     
+     By default it print the execution count with default string, we can modify the lable. 
+     
+```   
+for (let i = 0; i < 5; i++) {
+  console.count("myLabel");
+}
+```
+it will display the execution count with lable name myLabel. 
+
+#### 4:console.table()
+     
+      console.table print the output table formate.this method takes one argument which must be array or an objects 
+
+```
+function Person(firstName, lastName) {
+    this.firstName = firstName;
+    this.lastName = lastName;
+}
+var me = new Person("John", "Smith");
+console.table(me);
+┌───────────┬─────────┐
+│  (index)  │ Values  │
+├───────────┼─────────┤
+│ firstName │ 'John'  │
+│ lastName  │ 'Smith' │
+└───────────┴─────────┘
+```
+#### 5:console.time and console.timeEnd
+       
+       console.time and console.timeEnd function is used to how long taks the particular block to execution. 
+       
+```
+console.time("time");
+for (var i = 0; i < 10000; i++) {
+}
+console.timeEnd("Time");
+```
+ #### 6:console.group: 
+      
+      console.group create a group, with group names 
+
+```
+console.log("hello world");
+console.group();
+console.log("hello Bennison");
+console.log("helo gibson");
+console.groupEnd()
+console.log("hello world");
+
+output
+
+hello world
+  hello Bennison
+  helo gibson
+hello world
+```
+#### 7:console.assert()
+  
+  when we use some condition in console.assert, when the condition is not true the console.assert throw the error message. 
+  
+```
+let x = 5;
+let y = 5;
+console.assert(x + y == 11, "Expression returned 'false'");
+```
 
       
 
