@@ -7,7 +7,6 @@ function NaturalNumber(number) {
         sum = sum + i;
     }
 
-
     console.log("Sum of natural natural:", sum);
 }
 

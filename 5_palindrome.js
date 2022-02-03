@@ -1,10 +1,7 @@
 //check the number is palidrome or not. 
 
-string = "racecar";
-
-//we can apply same reverse string logic
-
-reverse = "";
+const string = "racecar";
+let reverse = "";
 
 length = string.length;
 

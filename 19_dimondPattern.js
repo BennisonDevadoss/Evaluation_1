@@ -1,12 +1,7 @@
 // dimond pattern 
-
-
 let pattern = "";
-
 let i, j, k, l;
-
 let space = 5;
-
 let temp = space;
 
 for (i = 0; i <= 5; i++) {
@@ -42,4 +37,3 @@ for (i = 4; i >= 0; i--) {
 }
 
 console.log(pattern);
-

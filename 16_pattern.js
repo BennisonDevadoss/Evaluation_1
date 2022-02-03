@@ -1,5 +1,4 @@
 let i, j;
-
 let pattern = "";
 let number = 5; 
 

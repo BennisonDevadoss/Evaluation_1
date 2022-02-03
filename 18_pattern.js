@@ -1,9 +1,7 @@
 //pyramid
 
 let i, j;
-
 let pattern = "";
-
 let size = 3
 let k = 0;
 
