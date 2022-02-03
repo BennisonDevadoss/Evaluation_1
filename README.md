@@ -171,7 +171,7 @@ ELSE
    
 ### 6: Array.forEach()  &  Array.map()
 
-### ALgorithm: 
+### Algorithm: 
 
 Array.forEach
 
@@ -273,6 +273,7 @@ PRINT b
 
 
 ### Algorithm
+
 step 1: Create a function and pass the argument to that function.
 
 step 2: Inside the function create avariable sum and initialize the variable to zero. 
@@ -309,7 +310,6 @@ step 5: If the reamainder is not zero, print the number is odd number.
 
 ```
 INIT i 
-
 SET even = add = 0
 FUNCTION find(a, b)
   WHILE a <= b
@@ -418,6 +418,7 @@ ENDFUNCTION
 compare(a, b) 
 compare(a, b)
 ```
+
 ### 14: Multidimensional array to single dimensional array.
 
 ### Algorithm 
@@ -436,6 +437,7 @@ step 6: Finally, copy the empty array to multidimensional array.
 
 ### psudocode
 ```
+
 SET a = [1, 4, 2, 3, [10, 20, 20], [100, 500, 700, 600],[2000, 1000]];
 SET c = []
 SET k = 0
@@ -509,6 +511,7 @@ FOR i = 0 -> number
 ENDFOR
 PRINT pattern
 ```
+
 ### 17. Print Pattern with numbers. 
 
 ### Algorithm 
@@ -646,7 +649,7 @@ PRINTpattern
        
        console.log is used to print the output message in the web console.  And the message may be string, integer, float.
  
- #### 2:console.dir
+#### 2:console.dir
       
       the console.dir is used to view the objects of JavaScript. 
       
@@ -654,7 +657,7 @@ PRINTpattern
       
       each hierarchical list have some property and methods. 
       
- #### 3:console.count
+#### 3:console.count
 
      The count() method counts the number of times console.count() is called.we can use this console.count() method to track how many time a particular statement is executed. 
      
@@ -695,9 +698,9 @@ for (var i = 0; i < 10000; i++) {
 }
 console.timeEnd("Time");
 ```
- #### 6:console.group: 
+#### 6:console.group: 
       
-      console.group create a group, with group names 
+     console.group create a group, with group names 
 
 ```
 console.log("hello world");
