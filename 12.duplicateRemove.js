@@ -7,13 +7,13 @@ let newArray = [];
 let i, j;
 let copy_of_k;
 
-OUTER: for (i = 0; i < length; i++) {
+outer: for (i = 0; i < length; i++) {
 
     if (i > 0) {
         copy_of_k = k;
         for (j = 0; j <= copy_of_k; j++) {
             if (array[i].id === newArray[j].id) {
-                continue OUTER;
+                continue outer;
             }
         }
     }

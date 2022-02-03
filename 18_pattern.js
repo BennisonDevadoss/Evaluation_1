@@ -10,7 +10,6 @@ for (i = 1; i < 5; i++) {
         if (j <= size) {
             pattern += pattern = " ";
         }
-
         else {
             pattern += ++k + " ";
         }

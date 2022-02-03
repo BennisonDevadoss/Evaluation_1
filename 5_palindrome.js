@@ -3,7 +3,7 @@
 const string = "racecar";
 let reverse = "";
 
-length = string.length;
+let length = string.length;
 
 for (i = length; i > 0; i--) {
     reverse += string[i - 1];

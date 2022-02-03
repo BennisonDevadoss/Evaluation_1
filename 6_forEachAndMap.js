@@ -1,15 +1,14 @@
 // Array.forEach
 
-// let names = ["Bennison", "Devadoss", "Gibson", "Joseph"];
+let names = ["Bennison", "Devadoss", "Gibson", "Joseph"];
 
+let fun = function (value, index) {
+    console.log(value, index);
+}
 
-// let fun = function (value, index) {
-//     console.log(value, index);
-// }
+names.forEach(fun);
 
-// names.forEach(fun);
-
-
+//..........................................
 // Array.map
 
 let fun = function (element) {
@@ -23,5 +22,3 @@ let newArray = array.map(fun);
 console.log(array);
 console.log(newArray);
 
-
-// The original array is still unchanged
