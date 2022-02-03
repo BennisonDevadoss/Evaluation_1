@@ -1,4 +1,12 @@
 // find sum of natural number
+let Number = 10;
+if (typeof Number === "number") {
+    NaturalNumber(Number);
+}
+else {
+    console.log("Please enter a string value!");
+}
+
 function NaturalNumber(number) {
 
     let sum = 0;
@@ -9,5 +17,3 @@ function NaturalNumber(number) {
 
     console.log("Sum of natural natural:", sum);
 }
-
-NaturalNumber(10); 

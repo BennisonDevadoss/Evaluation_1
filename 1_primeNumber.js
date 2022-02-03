@@ -1,11 +1,14 @@
 function prime(number) {
 
+    if (typeof number === "string") {
+        console.log("string value is not accepted.");
+    }
+
     if (number === 1 || number === 2) {
         console.log("Number " + number + " is NOT a PRIME number");
     }
 
     for (i = 2; i < number; i++) {
-
         if (number % i === 0) {
             console.log("Number " + number + " is NOT a PRIME number");
             break;
@@ -22,11 +25,9 @@ function prime(number) {
 
     }
 
-
 }
 
-
-prime(1);
+prime("Bennison");
 prime(2);
 prime(3);
 prime(4);

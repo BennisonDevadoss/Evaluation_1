@@ -176,9 +176,13 @@ ELSE
 Array.forEach
 
 step 1: Declare a array variable with some string variable
+
 step 2: Create a function, and that function takes three arguments. 
+
 step 3: Initiailze the function to a variable. 
+
 step 4: Finally, call the forEach method with call back function
+
 step 5: Through the forEach method can be accessed array index, value, objects seperatly. 
 
 
@@ -397,7 +401,9 @@ PRINT array
 ### Algorithm 
 
 step 1: declare two objects
+
 step 2: Pass these object to function to check the both function or same or not. 
+
 step 3: In the funtion, the function take two objects as a parameter. 
 
 step 4: Inside the function, two objects are compared. 
@@ -726,5 +732,6 @@ let x = 5;
 let y = 5;
 console.assert(x + y == 11, "Expression returned 'false'");
 ```
+....................................................................................................................................
 
 
