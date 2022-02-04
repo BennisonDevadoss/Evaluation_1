@@ -11,14 +11,13 @@ names.forEach(fun);
 //..........................................
 // Array.map
 
-let fun = function (element) {
+let func = function (element) {
     return element = element + 1;
 }
 
 let array = [1, 2, 3, 4, 5];
 
-let newArray = array.map(fun);
+let newArray = array.map(func);
 
 console.log(array);
 console.log(newArray);
-

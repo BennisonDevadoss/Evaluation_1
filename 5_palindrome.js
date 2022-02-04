@@ -1,6 +1,6 @@
 //check the number is palidrome or not. 
 "use strict";
-const string = "racecar";
+const string = "Racecar";
 let i;
 
 if (typeof string === "string") {

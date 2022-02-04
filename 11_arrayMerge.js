@@ -7,7 +7,7 @@ let i = 0;
 let lengthA = a.length;
 let lengthB = b.length;
 
-while (i < lengthB) {
+while (i < lengthA) {
     a[lengthA + i] = b[i];
     i++;
 }
