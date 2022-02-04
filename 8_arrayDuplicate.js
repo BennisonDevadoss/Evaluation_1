@@ -7,7 +7,7 @@ function duplicate(array1) {
     // console.log(array1 === array);
     let b = [];
     let length = array1.length;
-    let k = 0;
+    // let k = 0;
 
     outer: for (let i = 0; i < length; i++) {
         if (i > 0) {
@@ -21,8 +21,9 @@ function duplicate(array1) {
             }
         }
 
-        b[k] = array1[i];
-        k++;
+        // b[k] = array1[i];
+        b.push(array1[i])
+        // k++;
     }
 
     array = b;
