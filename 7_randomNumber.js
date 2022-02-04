@@ -1,3 +1,4 @@
+"use strict";
 let integer;
 function randomNumber(a, b) {
     integer = Math.floor(Math.random() * (b - a) + a);

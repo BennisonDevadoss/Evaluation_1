@@ -1,3 +1,4 @@
+"use strict";
 function prime(number) {
 
     if (typeof number === "string") {
@@ -8,7 +9,7 @@ function prime(number) {
         console.log("Number " + number + " is NOT a PRIME number");
     }
 
-    for (i = 2; i < number; i++) {
+    for (let i = 2; i < number; i++) {
         if (number % i === 0) {
             console.log("Number " + number + " is NOT a PRIME number");
             break;

@@ -1,4 +1,7 @@
+"use strict";
+
 let string = "Hi Hello How Are You";
+let i;
 
 if (typeof string != "string") {
     console.log("...........WARNING!...........");
@@ -28,7 +31,7 @@ function WordReverse(string) {
 
     //.................................
 
-    for (k = 1; k < word; k++) {
+    for (let k = 1; k < word; k++) {
         length = (length - count);
         i = length;
         count = 0;

@@ -1,6 +1,7 @@
 //check the number is palidrome or not. 
-
+"use strict";
 const string = "racecar";
+let i;
 
 if (typeof string === "string") {
     Palindrome(string);

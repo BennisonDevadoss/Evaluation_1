@@ -1,5 +1,5 @@
 // Array.forEach
-
+"use strict";
 let names = ["Bennison", "Devadoss", "Gibson", "Joseph"];
 
 let fun = function (value, index) {

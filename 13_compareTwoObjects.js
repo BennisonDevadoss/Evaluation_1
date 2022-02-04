@@ -1,3 +1,5 @@
+"use strict";
+
 let a = { id: 1, name: "edison" };
 let b = { id: 1, name: "edison" };
 

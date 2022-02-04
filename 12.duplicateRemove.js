@@ -1,6 +1,7 @@
+"use strict";
 let array = [{ id: 1, name: "Stephen covey" }, { id: 2, name: "Robin Sharma" }, { id: 3, name: "Tolstoy" }, { id: 3, name: "Tolstoy" }, { id: 5, name: "James clear" }, { id: 5, name: "James clear" }];
 
-length = array.length;
+let length = array.length;
 // console.log(array[0].id)
 let k = -1;
 let newArray = [];

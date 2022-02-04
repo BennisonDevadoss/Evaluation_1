@@ -1,5 +1,9 @@
 // find sum of natural number
+"use strict";
+
 let Number = 10;
+let i;
+
 if (typeof Number === "number") {
     NaturalNumber(Number);
 }

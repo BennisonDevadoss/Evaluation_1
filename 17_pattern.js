@@ -1,3 +1,5 @@
+"use strict";
+
 let i, j;
 let pattern = "";
 let k = 0;

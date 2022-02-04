@@ -1,4 +1,6 @@
 // dimond pattern 
+
+"use strict";
 let pattern = "";
 let i, j, k, l;
 let space = 5;
@@ -20,7 +22,7 @@ for (i = 0; i <= 5; i++) {
 
 pattern = pattern + " ";
 space = 1;
-tempe = space;
+// tempe = space;
 
 for (i = 4; i >= 0; i--) {
     for (j = 0; j <= i; j++) {

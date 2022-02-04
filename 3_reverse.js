@@ -1,3 +1,5 @@
+"use strict";
+
 const string = "Bennison devadoss";
 
 function stringReverse(string) {

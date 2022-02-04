@@ -1,4 +1,6 @@
 // sum of even and sum of Odd
+"use strict";
+
 let i;
 let even, odd;
 even = odd = 0;

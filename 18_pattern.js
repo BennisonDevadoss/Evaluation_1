@@ -1,4 +1,5 @@
 //pyramid
+"use strict";
 
 let i, j;
 let pattern = "";
