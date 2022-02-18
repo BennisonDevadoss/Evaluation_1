@@ -1,6 +1,6 @@
 "use strict";
 
-let string = " Hi Hello How Are You ";
+let string = " Hi Hello How Are You";
 // console.log(string.split(" ").reverse().join(" "));
 let i;
 

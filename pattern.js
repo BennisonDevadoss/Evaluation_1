@@ -9,10 +9,8 @@ for (i = 1; i <= number; i++) {
 
         pattern += "*" + " ";
     }
-
-    if (i < number)
-        pattern += "\n";
+    console.log(pattern);
+    pattern = "";
 }
 
-console.log(pattern); 
-
+// console.log(pattern); 
