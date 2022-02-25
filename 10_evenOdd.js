@@ -8,10 +8,10 @@ even = odd = 0;
 function find(a, b) {
     while (a <= b) {
         if (a % 2 != 0) {
-            odd = odd + 1;
+            odd = odd + a;
         }
         else {
-            even = even + 1;
+            even = even + a;
         }
         a++;
     }

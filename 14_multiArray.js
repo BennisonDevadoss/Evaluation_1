@@ -24,4 +24,7 @@ outer: for (i = 0; i < a.length; i++) {
 }
 
 a = c;
-console.log(a); 
+console.log(a);
+
+// let b = a.flat();
+// console.log(a); 

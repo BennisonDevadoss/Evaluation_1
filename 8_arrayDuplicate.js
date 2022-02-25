@@ -20,7 +20,7 @@ function duplicate(array1) {
         // }
 
         // b[k] = array1[i];
-        b.push(array1[i])
+        b.push(array1[i]);
         // k++;
     }
 

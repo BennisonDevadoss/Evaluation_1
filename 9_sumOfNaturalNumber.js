@@ -1,14 +1,14 @@
 // find sum of natural number
 "use strict";
 
-let Number = 10;
+let Numbers = 10;
 let i;
 
-if (typeof Number === "number") {
+if (typeof Numbers === "number") {
     NaturalNumber(Number);
 }
 else {
-    console.log("Please enter a string value!");
+    console.log("Please enter a Numberic value!");
 }
 
 function NaturalNumber(number) {
